@@ -32,8 +32,7 @@ Project is created with:
 
 ## Setup
 ---
-Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose "Open with")
-If you want to open it in chrome via terminal;
+Open it in chrome via terminal;
 
 
 ```
