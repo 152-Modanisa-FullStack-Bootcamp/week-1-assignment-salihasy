@@ -1,4 +1,90 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+@charset "utf-8";
+
+* {
+    margin: 0;
 }
+
+/* Aligning the contents of the body to the center of the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#317BB8,#8648AC);
+}
+
+/* Making the root element's display property "column" and align to the center of body using flexbox */
+#card {
+    border-radius: 1em;
+    height: 63vh;
+    width: 32vw;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Setting the font and alignment settings of the login title */
+#loginheader {
+    height: 20%;
+    width: 100%;
+    border-bottom: 0.2vh solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    font-family: sans-serif;
+}
+
+/* This selector contains everything inside the card div except the Login header */
+#thebodyofcard{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    margin: 4vh 1.5vh 0 1.5vh;
+}
+
+/* css of input elements */
+input[type=text] {
+    width: 100%;
+    border: none;
+    border-bottom: 0.3vh solid rgba(0, 0, 0, 0.3);
+    padding: 2vh;
+}
+
+/* Setting the default text inside the input */
+input[type=text]::placeholder {
+    font: 2.3vh arial;
+    color:  rgba(0, 0, 0, 0.3);
+}
+
+/* Setting the font of "forgot password" text */
+#forgot {
+    text-decoration:none;
+    color:  rgba(0, 0, 0, 0.3);
+    font: 2.3vh arial;
+}
+
+/* Setting the login button */
+#loginbutton {
+    background-color: #2691D9;
+    padding: 5%;
+    border-radius: 3em;
+    border: none;
+    font: bold 2.3vh arial;
+    color:  #ffffff ;
+}
+
+/* Setting the text of "Not Remember? Signup" link */
+#signup {
+    text-align: center;
+    text-decoration:none;
+    color:  rgba(0, 0, 0, 0.3);
+    font: 2.3vh arial;
+}
+
+/* font color for "signup" */
+span {
+    color: #2691D9;
+}
+

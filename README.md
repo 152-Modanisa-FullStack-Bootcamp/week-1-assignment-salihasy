@@ -1,43 +1,54 @@
-# vanilla-js-template
-Vanilla JS Project template for Modanisa Bootcamp
+# LOGIN PAGE
+
+![Login Page](./assets/Project.png)
+
+<br />
+
+## **TITLES**
+---
+* [Description](#description)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Sources](#sources)
+
+<br />
 
 
-First, you need to ensure that `yarn` installed on your pc.
+## Description
+---
+This project is the UI design of a login page.  . \
+Using CSS flexbox, the entire login card is aligned in the middle of the page, and the elements inside are grouped into columns. \
+The flexbox of the entire login card is column, it contains a total of 2 rows. These rows are also divided into columns according to necessity. \
+As for the promotion of the login card; it has the title "Login". \
+In addition, there are 2 text inputs to get the username and password from the user. And there is a button for the login process, links that lead to the relevant pages for "forgot password" and "sign up" actions. \
 
-After that, you can install all dependencies specified package.json with below code
-`yarn install`
+<br/>
 
-After installing dependencies execute `yarn start` and check http://localhost:1234
+## Technologies
+---
+Project is created with:
+* **HTML5**
+* **CSS3**
 
-## Submit structure
-There is a branch for every assigment on GitHub. Before writing the make sure that you
-are on assignment's branch and do not forget to commit and push the changes you make 
-to the remote repository.
+<br />
 
-
-## Assignment-1 (Login Screen)
-For the first assigment, you need to prepare a login screen which is centered on the screen.
-
-### Evaluation Criterion
-- You need to use class, id or attribute selector. Do not use inline styles.
-- You need to use flexbox.
-- You need to center login card both vertically and horizontally.
-- All elements inside the login card should be centered.
-- For bonus points, you need to give pay extra attention to the colors, border radius fonts.
-![This is an image](./assets/login-screen.png)
-
-
-## Assignment-2 (Linkedin Post)
-For this assigment, you need to prepare a Linkedin post.
-
-### Evaluation Criterion
-- You need to use class, id or attribute selector. Do not use inline styles.
-- You need to use flexbox.
-- Elements should be placed roughly as you see in the picture below.
-- For bonus points, you need to give pay extra attention to the colors, border radius and fonts.
+## Setup
+---
+Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose "Open with")
+If you want to open it in chrome via terminal;
 
 
-![This is an image](./assets/linkedin-post.png)
+```
+$ open Post.html
+```
+If you have problems with the command above, you can try this;
 
-## Assignment-3 (JS Practice)
-This assigment is about JS. All the steps you need to complete written in app.js file.
+```
+$ open -a "Google Chrome" Post.html
+```
+<br />
+
+## Sources
+---
+_https://css-tricks.com/snippets/css/a-guide-to-flexbox/_ \
+_https://www.w3schools.com/_
