@@ -1,4 +1,168 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+@charset "utf-8";
+
+/* default margin and font-family for all elements */
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Aligning the body element to the center of the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FC957A;
+}
+
+
+/* Making the root element's display property "column" using flexbox */
+#post {
+    width: 45vw;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vh;
+}
+
+/* Making the top div element's display property "row" using flexbox */
+/* This div contains the google logo, the google title, the number of followers and the three dots at the top right. */
+#headinformation {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+/* Putting the google logo and the div that contains google header side by side. */
+/* This div covers the elements of the "headinformation" div other than the three dots and its one of the child divs of the "headinformation" div */
+#logoandcolumnofgoogleinformations {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#googlelogo{
+    background: transparent;
+    height: 5vh;
+    margin: 3vh;
+}
+
+#edited {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#columnofgoogle {
+    margin-top: 2.2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vh;
+}
+
+/* It is one of the child divs of the "headinformatin" div. And it includes the three dots at the top right of the page. */
+#threedots {
+    height: 3.5vh;
+    margin: 1.5vh 2vh;
+}
+
+
+/* linkedin post image */
+#postimage {
+    margin-top: 1vh;
+    width: 100%;
+}
+
+/* subheadings below the picture */
+#subheadings {
+    display: flex;
+    flex-direction: column;
+    background-color: #EFF3F7;
+    padding: 1.8vh 0;
+    gap:1vh;
+}
+
+/* css of the div and its sub-divs, including the reactions and the number of comments */
+#reactionsandcomments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3vh;
+}
+
+#reactionicons {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5vh 2vh;
+    align-items: center;
+}
+
+#reactionicons img{
+    height: 2.5vh;
+}
+
+#comments {
+    margin-right: 2vh;
+}
+
+
+/* Making the display property of the div containing the "like", "commands", "share" and "send" buttons "flexbox" and other settings */
+/* This div contains the  "like", "commands", "share" and "send" buttons */
+#actionbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 2vh;
+    border-top: 0.1vh solid rgba(0, 0, 0, 0.1);
+    padding: 2.8vh;
+}
+
+.btn {
+    background: #fff;
+    border: none;
+    text-align:left;
+    cursor: pointer;
+}
+
+.btn-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    margin-left: 0.3vh;
+}
+
+/* Setting the font of articles and subtitles  */
+.article{
+    font-size: 2.1vh;
+    margin: 0 1.5vh;
+}
+
+/* And setting font and margins of others... */ 
+#google{
+    font-size: 2.2vh;
+}
+
+.greyfontcolor {
+    color:rgb(0, 0, 0, 0.6);
+}
+
+.bluecolor {
+    color: #4375C2;
+}
+
+a{
+    text-decoration: none;
+}
+
+.greyandmarginleft {
+    color:rgb(0, 0, 0, 0.5);
+    margin-left: 2vh;
+    font-family: Helvetica;
+}
+
+.greyandmargin {
+    color:rgb(0, 0, 0, 0.5);
+    margin-left: 0.2vh;
+}
+
+
