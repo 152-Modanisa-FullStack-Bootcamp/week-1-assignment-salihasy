@@ -13,7 +13,7 @@
 
 <br />
 
-## Technologies
+## Description
 ---
 This project is the UI design of one of the Google's linkedin posts . \
 Using CSS flexbox, the entire post is aligned in the middle of the page, and the elements inside are grouped into columns and rows. \
