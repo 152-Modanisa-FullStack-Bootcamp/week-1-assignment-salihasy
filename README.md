@@ -34,17 +34,17 @@ Project is created with:
 
 ## Setup
 ---
-Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose "Open with")
-If you want to open it in chrome via terminal;
+Open it in chrome via terminal;
 
 
-```
-$ open Post.html
-```
-If you have problems with the command above, you can try this;
 
 ```
-$ open -a "Google Chrome" Post.html
+$ npm run start
+```
+or 
+
+```
+$ yarn start
 ```
 <br />
 
