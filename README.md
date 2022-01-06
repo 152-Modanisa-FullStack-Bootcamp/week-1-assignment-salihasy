@@ -16,7 +16,7 @@
 
 ## Description
 ---
-This project is the UI design of a login page.  . \
+This project is the UI design of a login page. \
 Using CSS flexbox, the entire login card is aligned in the middle of the page, and the elements inside are grouped into columns. \
 The flexbox of the entire login card is column, it contains a total of 2 rows. These rows are also divided into columns according to necessity. \
 As for the promotion of the login card; it has the title "Login". \
