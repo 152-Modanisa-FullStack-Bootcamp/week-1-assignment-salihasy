@@ -13,7 +13,7 @@
 
 <br />
 
-## Technologies
+## Description
 ---
 This project is UI design that displays products containing the name "şal".  . \
 Using CSS flexbox, the entire post is aligned in the middle of the page \
